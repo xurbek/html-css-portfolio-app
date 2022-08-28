@@ -1,0 +1,69 @@
+.footer {
+    display: inline-block;
+    padding: 100;
+    margin-top:50px ;
+    background-color:#021017 ;
+    text-align: center;
+    width: 100%;
+}
+.footer__brand img {
+    width: 128px;
+    margin-top: 50px;
+}
+
+.footer__navigation-item {
+display: inline-block;
+padding: 0 10px;
+letter-spacing: 2px;
+}
+
+.footer__navigation-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__social {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 36px;
+    color: #05364d;
+    font-size: 1rem;
+    margin-right: 12px;
+} 
+.footer__social a {
+    color: #021017;
+}
+
+.footer__social:hover {
+    background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+    transition: 2s;
+}
+.footer__social:hover i {
+    color: white;
+    transition: 1s;
+}
+
+.footer__text {
+    color: #797979;
+}
+
+@media only screen and (max-widht:767px) {
+    .container{
+        width: 96%;
+    }
+    .main-navigation {
+        display: none;
+    }
+}
+a {
+    transition: all 0.3s ease-in-out;   
+}
+
+.button {
+    font-family: inherit;
+    transition: all 0.3s ease-in-out;
+}
